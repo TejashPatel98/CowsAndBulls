@@ -106,4 +106,22 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="441dp" />
 
+    <TextView
+        android:id="@+id/CountertextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guesses: "
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <TextView
+        android:id="@+id/CountertextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="582dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
